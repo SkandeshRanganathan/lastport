@@ -195,6 +195,53 @@ sup{
         font-weight: bolder;
         font-size: 30px;
     }
+    .div1{
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        justify-content: center;
+        font-weight: 600px;
+        font-style: bold;
+        font-size: larger;
+        height: 500px;
+        width: 750px;
+        overflow: scroll;
+        overflow-x: none;
+        overflow-y: scroll;
+        margin-top: 20px;
+    }
+    .home{
+        background-image: url(home-icon-vector.jpg);
+        height: 100px;
+        width: 100px;
+        margin-top: -280px;
+        margin-left: 30px;
+        background-size: cover;
+        border: 5px solid black;
+        border-radius: 50px;
+        position: absolute;
+        
+    }
+}
+@media screen and (max-width:1024) {
+    .div1{
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        justify-content: center;
+        font-weight: 600px;
+        font-style: bold;
+        font-size: larger;
+        height: 500px;
+        width: 750px;
+        overflow: scroll;
+        overflow-x: none;
+        overflow-y: scroll;
+        margin-top: 20px;
+    }
+    
 }
 @media screen and (max-width:768px) {
     .para {
@@ -215,5 +262,37 @@ sup{
     }
     .h1{
         font-size: 30px;
+    }
+    .div1{
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        justify-content: center;
+        font-weight: 600px;
+        font-style: bold;
+        font-size: larger;
+        height: 500px;
+        width: 750px;
+        overflow: scroll;
+        overflow-x: none;
+        overflow-y: scroll;
+        margin-top: 20px;
+    }
+    .home{
+        background-image: url(home-icon-vector.jpg);
+        height: 100px;
+        width: 100px;
+        margin-top: -280px;
+        margin-left: 0px;
+        background-size: cover;
+        border: 5px solid black;
+        border-radius: 50px;
+        position: absolute;
+        
+    }
+    .home:hover{
+        transition: 400ms all ease-in-out;
+        transform: scale(1.5);
     }
 }
