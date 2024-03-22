@@ -296,3 +296,22 @@ sup{
         transform: scale(1.5);
     }
 }
+@media screen and (max-width:1280px)  {
+    .div1{
+        position: absolute;
+        top: 31%;
+        left: 27%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        justify-content: center;
+        font-weight: 600px;
+        font-style: bold;
+        font-size: larger;
+        height: 500px;
+        width: 750px;
+        overflow: scroll;
+        overflow-x: none;
+        overflow-y: scroll;
+        margin-top: 20px;
+    }
+    
+}
